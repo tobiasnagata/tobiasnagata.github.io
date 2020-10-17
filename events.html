@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>UKM Skydiving</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <div class="headerBlock">
+        <h1>UKM Skydiving</h1>
+        <p>Let's Fly Together</p>
+      </div>
+    </header>
+
+    <ul class="navbar">
+      <li><i class="fas fa-parachute-box"></i></li>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About Us</a></li>
+      <li><a href="#" class="active">Events</a></li>
+      <li><a href="contact.html">Contact Us</a></li>
+      <li><a href="regist.html">Registration</a></li>
+    </ul>
+
+    <h2 id="eventTitle">Upcoming Events</h2>
+    <div class="eventBox">
+      <div class="events">
+        <img src="assets/event.jpg">
+        <p class="time">24 oktober 2020</p>
+        <p class="title">Party Skydiving</p>
+        <p class="subtitle">Party dalam rangka merayakan <span id="dots">...</span><span id="more">mengakrabkan antara anggota baru terhadap anggota lama. Party dihadiri semua anggota berlokasi di universitas.</span></p>
+        <button type="button" id="btn_more" onclick="readMore()">Read More</button>
+      </div>
+    </div>
+
+    <div class="boxfull">
+      <h2 id="eventTitle">Past Events</h2>
+      <div class="eventBox">
+        <div class="events">
+          <img src="assets/event.jpg">
+          <p class="time">10 September 2020</p>
+          <p class="title">Skydiving</p>
+          <p class="subtitle">Kegiatan skydiving pertama pada periode <span id="dots1">...</span><span id="more1">ini. Anggota dapat bermain bersama anggota lainnya.</span></p>
+          <button type="button" id="btn_more1" onclick="readMore1()">Read More</button>
+        </div>
+        <div class="events">
+          <img src="assets/event.jpg">
+          <p class="time">8 Agustus 2020</p>
+          <p class="title">Introduction UKM</p>
+          <p class="subtitle">Memperkenalkan kegiatan ukm kepada <span id="dots2">...</span><span id="more2">anggota serta memperlihatkan kegiatan satu periode kedepan.</span></p>
+          <button type="button" id="btn_more2" onclick="readMore2()">Read More</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="script.js"></script>
+  </body>
+  <footer>
+    <p>@copyright 2020</p>
+  </footer>
+</html>

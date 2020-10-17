@@ -1,0 +1,625 @@
+html, body {
+  font-family: "Nunito";
+  margin: 0;
+}
+
+header {
+  text-align: center;
+  color: cornflowerblue;
+  background-image: url(assets/header-bg.png);
+  background-position: center;
+  background-size: cover;
+  padding: 100px;
+}
+
+header h1 {
+  font-size: 52px;
+  letter-spacing: 5px;
+  line-height: 6px;
+}
+
+header p {
+  font-family: 'caveat';
+  letter-spacing: 10px;
+  font-size: 32px;
+  line-height: 2px;
+}
+
+.headerBlock {
+  border: 1px solid azure;
+  background-color: white;
+  box-shadow: 5px 10px 8px;
+  margin-left: 45%;
+  width: 500px;
+}
+
+main {
+  overflow: hidden;
+}
+
+.aboutMain {
+  margin-top: -410px;
+}
+
+.boxfull {
+  margin-bottom: 20px;
+}
+
+/*Navigation Bar*/
+.navbar {
+  list-style-type: none;
+  background-color: skyblue;
+  overflow: hidden;
+  margin: 0;
+  padding: 18px;
+  position: sticky;
+  top: 0;
+}
+
+.navbar li {
+  float: left;
+}
+
+.navbar li a {
+  text-decoration: none;
+  letter-spacing: 4px;
+  padding: 25px;
+  font-weight: lighter;
+  color: indigo;
+}
+
+.navbar li a:hover {
+  background-color: mintcream;
+  color: darkturquoise;
+  font-weight: bolder;
+}
+
+.navbar li i {
+  color: white;
+  font-size: 25px;
+  padding-right: 20px;
+}
+
+.navbar li i:hover {
+  color: tomato;
+}
+
+.active {
+  background-color: azure;
+  color: darkturquoise;
+  font-weight: bolder;
+  font-style: italic;
+}
+
+/*Home Content*/
+.intro {
+  margin: auto;
+  margin-top: 25px;
+  border: 1px solid gray;
+  border-radius: 10px;
+  box-shadow: 3px 3px 5px lightgray;
+  padding: 12px;
+  text-align: center;
+  width: 700px;
+  background-color: white;
+}
+
+.intro img {
+  width: 200px;
+}
+
+.intro th {
+  font-size: 24px;
+  font-weight: bolder;
+  line-height: 10px;
+  padding-top: 8px;
+}
+
+/*Hot News*/
+.hotnews {
+  width: 50%;
+  float: left;
+  margin: 10px 0 20px 10%;
+}
+
+.hotnews h3 {
+  font-size: 24px;
+  font-weight: bolder;
+  color: slateblue;
+  letter-spacing: 6px;
+  padding-left: 20px;
+}
+
+.content {
+  padding: 12px;
+  margin-top: 20px;
+  border-radius: 8px;
+  overflow: auto;
+  background-color: snow;
+  box-shadow: 4px 4px 4px lightgray;
+}
+
+.content img {
+  border-radius: 12px;
+  width: 280px;
+  float: left;
+}
+
+.content p {
+  margin: 0 8px 4px 40%;
+  height: 45px;
+  overflow: hidden;
+}
+
+.contTitle {
+  padding-top: 8px;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 24px;
+  text-align: left;
+}
+
+.contSub {
+  font-size: 14px;
+  line-height: 24px;
+  padding-top: 12px;
+  color: gray;
+  text-align: left;
+}
+
+.content button {
+  background-color: lightsalmon;
+  color: azure;
+  font-weight: bold;
+  padding: 8px 25px;
+  border-radius: 8px;
+  border: none;
+  float: right;
+  margin-right: 20px;
+}
+
+.content button:hover {
+  background-color: papayawhip;
+  color: salmon;
+  border: 2px solid lightsalmon;
+  font-weight: bolder;
+}
+
+/* Side Content */
+.side {
+  width: 25%;
+  margin: 35px 0 10px 65%;
+}
+
+.side h3 {
+  font-size: 24px;
+  font-weight: bolder;
+  color: slateblue;
+  letter-spacing: 6px;
+  padding-left: 20px;
+}
+
+#achievement {
+  border-radius: 4px;
+  padding: 4px 30px;
+  text-align: left;
+  background-color: snow;
+  box-shadow: 4px 4px 4px lightgray;
+  font-size: 16px;
+}
+
+#hash {
+  color: gray;
+  padding-right: 8px;
+  font-size: 24px;
+  vertical-align: -4px;
+}
+
+#achievement:hover {
+  font-weight: bolder;
+}
+
+/* Schedule */
+#jadwal {
+  background-color: snow;
+  border-radius: 4px;
+  padding: 20px 30px;
+  box-shadow: 4px 4px 4px lightgray;
+}
+
+#jadwal:hover {
+  font-weight: bolder;
+}
+
+/* About */
+.contentAbout {
+  width: 50%;
+  float: left;
+  margin-left: 10%;
+}
+
+.information {
+  width: 20%;
+  margin: 50px 0 30px 65%;
+  position: sticky;
+  top: 100px;
+}
+
+.information h3 {
+  font-size: 24px;
+  font-weight: bolder;
+  color: tomato;
+  letter-spacing: 6px;
+  text-align: center;
+}
+
+.listInfo {
+  margin-top: -20px;
+  border: 3px solid salmon;
+  border-radius: 12px;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.listInfo a {
+  text-decoration: none;
+  letter-spacing: 2px;
+  font-size: 18px;
+  line-height: 50px;
+}
+
+.listInfo a:hover {
+  font-weight: bolder;
+  font-size: 20px;
+  color: slateblue;
+  border-bottom: 1px solid blue;
+}
+
+.boxContent {
+  margin-top: 50px;
+  padding: 20px;
+  text-align: center;
+  background-color: snow;
+  box-shadow: 4px 4px 4px lightgray;
+  border-radius: 10px;
+}
+
+.boxContent h2 {
+  font-size: 24px;
+  font-weight: bolder;
+  color: slateblue;
+  letter-spacing: 6px;
+}
+
+/* Visi dan Misi */
+.visimisi h2 {
+  font-size: 24px;
+  font-weight: bolder;
+  color: slateblue;
+  letter-spacing: 6px;
+  padding-left: 20px;
+}
+
+.visimisi ol {
+  text-align: left;
+  margin-left: 10%;
+  padding-right: 80px;
+}
+
+/* Sturktur Organisasi */
+.strukOrg h4, p {
+  text-align: center;
+  line-height: 2px;
+}
+
+.strukOrg img {
+  width: 150px;
+}
+
+.bph {
+  margin-top: 50px;
+  display: inline-block;
+  padding: 0 25px;
+}
+
+/* Detail UKM */
+.detail p{
+  line-height: 20px;
+}
+
+/* Profile Anggota */
+.anggota {
+  padding: 0 20px 0 20px;
+}
+
+.anggota h4, p {
+  text-align: center;
+  line-height: 2px;
+}
+
+.profile {
+  display: inline-block;
+  text-align: center;
+  margin: 10px 12px;
+}
+
+.profile img {
+  width: 150px;
+}
+
+/* Kegiatan */
+.kegiatan {
+  border: 1px solid gray;
+  border-radius: 10px;
+  background-color: mistyrose;
+  color: gray;
+  display: inline-block;
+  margin: 0 20px;
+}
+
+.kegiatan img {
+  width: 300px;
+  border-radius: 10px;
+}
+
+/* Hal yang Dipelajari */
+.miniBox {
+  margin: 10px 20px;
+  padding: 20px;
+  width: 200px;
+  display: inline-block;
+  text-align: center;
+  background-color: aliceblue;
+  box-shadow: 4px 4px 4px lightgray;
+  border-radius: 10px;
+}
+
+.miniBox:hover {
+  font-weight: bolder;
+  background-color: deepskyblue;
+  color: white;
+}
+
+#more {
+  display: none;
+}
+
+#more1 {
+  display: none;
+}
+
+#more2 {
+  display: none;
+}
+
+/*Events*/
+.eventBox {
+  width: 80%;
+  margin-left: 10%;
+  padding: 20px;
+  background-color: snow;
+  box-shadow: 4px 4px 4px lightgray;
+  border-radius: 10px;
+}
+
+#eventTitle {
+  margin: 80px 0 12px 10%;
+  font-size: 24px;
+  font-weight: bolder;
+  color: slateblue;
+  letter-spacing: 6px;
+}
+
+.events {
+  display: inline-block;
+  border: 1px solid gray;
+  border-radius: 12px;
+  width: 200px;
+  margin: 10px;
+}
+
+.events img {
+  width: 200px;
+  border-radius: 12px;
+}
+
+.time {
+  font-style: italic;
+  font-size: 14px;
+  color: gray;
+  line-height: 8px;
+}
+
+.title {
+  font-size: 18px;
+  font-weight: bolder;
+  line-height: 18px;
+}
+
+.subtitle {
+  font-size: 16px;
+  font-weight: lighter;
+  line-height: 16px;
+  padding: 0 4px;
+}
+
+.events button {
+  width: 200px;
+  border-radius: 12px;
+  padding: 4px 0;
+  background-color: salmon;
+  border-color: salmon;
+  color: white;
+}
+
+.events button:hover {
+  background-color: lightsalmon;
+  border-color: lightsalmon;
+  font-weight: bolder;
+  font-size: 16px;
+}
+
+/* Map */
+.location {
+  width: 100%;
+  height: 500px;
+  padding-bottom: 80px;
+  background-image: url(assets/sky.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+.location iframe {
+  margin: 80px 0 0 15%;
+  border-radius: 10px;
+}
+
+.location p{
+  font-family: 'caveat';
+  font-size: 120px;
+  font-weight: bolder;
+  margin-left: 40%;
+  margin-top: -250px;
+  color: white;
+}
+
+/* Person in Charge */
+.personInCharge {
+  background-color: lightsalmon;
+  width: 30%;
+  height: 370px;
+  padding: 20px 0 0 20%;
+  float: left;
+}
+
+.personInCharge h3 {
+  color: white;
+  font-weight: bolder;
+  font-size: 32px;
+  margin-left: -60px;
+}
+
+.personInCharge p {
+  text-align: left;
+  font-size: 18px;
+  color: white;
+  line-height: 20px;
+  margin-left: -60px;
+}
+
+.personInCharge p a {
+  color: white;
+}
+
+.formText {
+  background-color: lavender;
+  color: gray;
+  margin-left: 50%;
+  height: 350px;
+  padding: 20px 50px;
+}
+
+.formText h3 {
+  font-size: 32px;
+  font-weight: bolder;
+}
+
+.formText label {
+  line-height: 30px;
+}
+
+.formText input {
+  padding: 2px 10px;
+  border: 1px solid lightgray;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.formText textarea {
+  width: 475px;
+  height: 100px;
+  padding: 10px;
+}
+
+.formText button {
+  background-color: lightblue;
+  padding: 10px 30px;
+  border-radius: 10px;
+  border-color: lightblue;
+  color: gray;
+  font-weight: bolder;
+}
+
+.formText button:hover {
+  background-color: ghostwhite;
+  color: dodgerblue;
+  font-weight: bolder;
+}
+
+/* Registration */
+.registBox {
+  width: 40%;
+  margin: 30px 0 0 28%;
+  padding: 20px;
+  background-color: snow;
+  box-shadow: 4px 4px 4px lightgray;
+  border-radius: 10px;
+}
+
+#registTitle {
+  font-size: 32px;
+  font-weight: bolder;
+  color: slateblue;
+  letter-spacing: 6px;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.pendaftaran {
+  padding: 20px 20px 20px 80px;
+  font-size: 18px;
+  line-height: 40px;
+  color: gray;
+}
+
+.pendaftaran input {
+  border: 1px solid gray;
+  border-radius: 4px;
+  padding: 2px 10px;
+  position: sticky;
+  left: 780px;
+}
+
+.pendaftaran button {
+  padding: 10px 50px;
+  margin: 20px 0 0 140px;
+  background-color: lightsalmon;
+  border-color: lightsalmon;
+  border-radius: 12px;
+  color: white;
+  font-size: 20px;
+}
+
+.pendaftaran button:hover {
+  background-color: ghostwhite;
+  color: salmon;
+  font-weight: bolder;
+}
+
+#peraturan {
+  font-weight: bolder;
+}
+
+#peraturan:hover {
+  color: black;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  background-color: skyblue;
+  color: white;
+  font-size: 20px;
+  padding: 50px;
+}

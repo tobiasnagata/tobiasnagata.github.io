@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>UKM Skydiving</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <div class="headerBlock">
+        <h1>UKM Skydiving</h1>
+        <p>Let's Fly Together</p>
+      </div>
+    </header>
+
+    <ul class="navbar">
+      <li><i class="fas fa-parachute-box"></i></li>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About Us</a></li>
+      <li><a href="events.html">Events</a></li>
+      <li><a href="contact.html">Contact Us</a></li>
+      <li><a href="#" class="active">Registration</a></li>
+    </ul>
+
+    <main>
+      <h3 id="registTitle">Form Registrasi</h3>
+      <div class="boxfull">
+        <div class="registBox">
+          <form class="pendaftaran" name="form">
+            <label for="fullName">Nama Lengkap</label>
+            <input type="text" name="fullName" placeholder="Masukan Nama Lengkap" maxlength="52" pattern="[a-z]"><br>
+            <label for="nickName">Nama Panggilan</label>
+            <input type="text" name="nickName" placeholder="Masukan Nickname" maxlength="12"><br>
+            <label for="place">Tempat Lahir</label>
+            <input type="text" name="place" placeholder="Tempat Kelahiran" maxlength="20"><br>
+            <label for="birth">Tanggal Lahir</label>
+            <input type="date" name="birth"><br>
+            <label for="nim">NIM</label>
+            <input type="text" name="nim" placeholder="NIM" maxlength="12"><br>
+            <label for="prodi">Program Studi</label>
+            <input type="text" name="prodi" placeholder="Program Studi" maxlength="16"><br>
+            <label for="mail">Email</label>
+            <input type="email" name="mail" placeholder="example@gmail.com"><br>
+            <label for="handphone">No Hp</label>
+            <input type="text" name="handphone" placeholder="08xx xxxx xxx" maxlength="12"><br>
+            <label for="homePlace">Tempat Tinggal</label>
+            <input type="text" name="homePlace" placeholder="Alamat" maxlength="32"><br>
+            <input type="checkbox" name="eula" style="position: static;">
+            <label for="eula" style="font-size: 14px;">Saya telah membaca dan menyetujui <span id="peraturan" onclick="peraturan()">peraturan</span></label>
+            <button type="button" name="button" onclick="joinUs()">Daftar</button>
+          </form>
+        </div>
+      </div>
+    </main>
+
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY&callback=myMap"></script>
+    <script src="script.js"></script>
+  </body>
+  <footer>
+    <p>@copyright 2020</p>
+  </footer>
+</html>
